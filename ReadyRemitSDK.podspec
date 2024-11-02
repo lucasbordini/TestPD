@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
     s.description      = <<-DESC
       Detailed Description of ReadyRemitSDK, what it does, what's the purpose of this package.
     DESC
-    s.homepage         = 'https://sua-homepage.com'
+    s.homepage         = 'https://www.brightwell.com/readyremit'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
-    s.author           = { 'Seu Nome' => 'seuemail@exemplo.com' }
-    s.source           = { :http => 'URL_PARA_O_ARQUIVO_ZIP_DOS_XCFRAMEWORKS' }
+    s.author           = { 'Lucas Bordini' => 'lucas.bordini@hotmail.com' }
+    s.source           = { :http => 'https://github.com/lucasbordini/TestPD/blob/main/Frameworks.zip' }
   
-    s.platform     = :ios, '12.0' # Ajuste conforme necessário
+    s.platform     = :ios, '15.0' # Ajuste conforme necessário
   
     # Inclua os frameworks binários
     s.vendored_frameworks = [
@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
     ]
   
     # Dependências
-    s.dependency 'Swinject', '~> 2.7.1'
+    s.dependency 'Swinject', '2.9.1'
+
+
   end
   
